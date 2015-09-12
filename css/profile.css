@@ -1,0 +1,49 @@
+
+
+body {
+  padding-top: 70px;
+	min-width: 1800px;
+	float: left;
+}
+
+/*** buttons ***/
+.btn {
+	background:#3E6D92;
+	color:#fff;
+	border:2px solid #fff;
+}
+.btn:hover {
+	color:#3E6D92;
+	border-color:#eee;
+	text-shadow:none;
+	background:#fff
+}
+.btn-primary {
+	background: #006dcc;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+	background: #555;
+}
+.btn-info {
+	background: #49AFCD;
+}
+.btn-success {
+	background: #5BB75B;
+}
+.btn-warning {
+	background: #FAA732;
+}
+.btn-danger {
+	background: #DA4F49;
+}
+.btn-link, .btn-link:active, .btn-link[disabled], .btn-link:hover {
+	background:none;
+	border:none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow:none;
+	box-shadow: none;
+	color:#49AFCD;
+}
+.btnWrapper {
+	border:1px solid #ccc;
+}
